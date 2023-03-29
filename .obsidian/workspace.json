@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "a1631cfd6611ccdd",
+    "type": "split",
+    "children": [
+      {
+        "id": "d1c6c96603b4e0b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec7f5ad5ff0e3eeb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-basics/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f397b11cfd5bb7f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f4fecde53f304cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a8ce1801e0324ba",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a503dc0b9bd4ebb4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f3a9a07a886558bf",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a807d6fa39f1c207",
+    "type": "split",
+    "children": [
+      {
+        "id": "94fa2cd461bf195b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "978227a8a07dbded",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00-basics/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "079a059189b5b492",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00-basics/README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e2faf9a07d3ba008",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b1238dd003dc21cd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00-basics/README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ec7f5ad5ff0e3eeb",
+  "lastOpenFiles": [
+    "LICENSE",
+    "00-basics/readme/notfound.png",
+    "00-basics/app/not-found.jsx",
+    "00-basics/readme/loading.png",
+    "00-basics/README.md",
+    "00-basics/readme/error.png",
+    "00-basics/app/loading.jsx",
+    "00-basics/app/layout.jsx",
+    "00-basics/app/error.jsx",
+    "00-basics/app/loader.jsx",
+    "00-basics/app/head.js",
+    "Pasted image 20230330014822.png",
+    "00-basics/readme/page.png",
+    "00-basics/node_modules/@types/node/globals.global.d.ts",
+    "00-basics/node_modules/@types/node/zlib.d.ts",
+    "00-basics/node_modules/@types/node/worker_threads.d.ts",
+    "00-basics/node_modules/@types/node/wasi.d.ts",
+    "00-basics/node_modules/@types/node/README.md",
+    "00-basics/readme/clientsideproperror.png",
+    "00-basics/readme/static.png",
+    "README.md"
+  ]
+}
