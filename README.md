@@ -13,7 +13,7 @@
     </thead>
     <tbody>
         <tr>
-            <td><a href="https://github.com/driptanil/NodeJS-Tutorial/tree/main/00-basics">00-Basics</a></td>
+            <td><a href="https://github.com/driptanil/Next-JS-13-Tutorial/tree/main/00-basics">00-Basics</a></td>
             <td><img src="https://progress-bar.dev/100?title=✅⠀"> </td>
         </tr>
     </tbody>
