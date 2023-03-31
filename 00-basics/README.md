@@ -59,9 +59,9 @@ Using  `useState() hook` causes error because it is only available on Client Sid
 
 ### `Error.jsx`
 
-- An `error.jsx` file defines an error UI boundary for a route segment
+- An `page.jsx` file defines an error UI boundary for a route segment
 
-- An `error.jsx` boundary will **not** handle errors thrown in a `layout.js` component in the **same** segment because the error boundary is nested **inside** that layouts component.
+- An `page.jsx` boundary will **not** handle errors thrown in a `layout.js` component in the **same** segment because the error boundary is nested **inside** that layouts component.
 
 - `"use client"` makes this component **Client Side Rendered**
 ![](./readme/error.png)
@@ -71,3 +71,47 @@ Using  `useState() hook` causes error because it is only available on Client Sid
 - The `not-found.jsx` file is used to render UI when the [`notFound`](https://beta.nextjs.org/docs/api-reference/notfound) function is thrown within a route segment.
 
 ![](./readme/notfound.png)
+
+## Understanding Next.js Routing
+
+![](./readme/routeSegments.png)
+
+- https://beta.nextjs.org/docs/routing/fundamentals
+
+[//]: # (![]&#40;./readme/Routing_%20Fundamentals%20_%20Next.js.png&#41;)
+![](./readme/about.png)
+
+## Dynamic Routing
+  - When you don't know the exact segment names ahead of time and want to create routes from dynamic data, you can use Dynamic Segments that are filled in at request time or prerendered at build time.
+    Convention
+
+  - A Dynamic Segment can be created by wrapping a folder’s name in square brackets: [folderName]. For example, [id] or [slug].
+
+- Dynamic Segments are passed as the params prop to layout, page, route, and generateMetadata functions.
+
+![](./readme/product.png)
+
+![](./readme/catchSegments.png)
+![](./readme/optionalCatchSegments.png)
+
+## Adding Navigation bar
+
+- In `header.jsx`,  by using `Link` from `next/link` and using `href` attribute.
+- `<Link>` is a React component that extends the HTML element to provide prefetching and client-side navigation between routes. It is the primary way to navigate between routes in Next.js.
+- This `header.jsx` is imported to `layout.jsx` file, which helps it remain static while routing
+![](./readme/nav.png)
+
+## Searching Bar
+
+- In `search.jsx`, the `input` tag used `onChange` attribute.
+
+- To use `onChange` attribute and `useState()` hook must be Client Side Rendered for it to work properly, `"use client";`.
+
+- Just of organization of code files, `search.jsx` is stored `/components/clients/` 
+
+- used **TailWindCss** component and **React-icons** for search bar UI. 
+![](./readme/search.png)
+
+### Organizing routes without affecting the URL path
+
+![](./readme/organizeRoute.png)
